@@ -9,7 +9,7 @@ The first user creates a whiteboard and becomes the whiteboard’s manager/serve
 
 1. ```java -jar StartWhiteBoard.jar <IP> <port> <username> ```
 
-###       OR
+    ### OR
 
 2. ```java -jar StartWhiteBoard.jar```
 
@@ -20,7 +20,7 @@ Other users can ask to join the whiteboard application any time by running
 
 1. ```java -jar JoinWhiteBoard.jar <IP> <port> <username> ```
 
-###       OR
+    ### OR
 
 2. ```java -jar JoinWhiteBoard.jar ```
 
