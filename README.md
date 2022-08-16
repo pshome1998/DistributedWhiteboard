@@ -7,18 +7,18 @@ This implementation of collaborative whiteboard provides features such as : free
 
 The Server can be invoked in 2 ways- 
 (i) By running 
-java -jar StartWhiteBoard.jar <IP> <port> <username> 
+```java -jar StartWhiteBoard.jar <IP> <port> <username> ``````
 
 (ii) By running 
-java -jar StartWhiteBoard.jar
+```java -jar StartWhiteBoard.jar```
 
 i.e if no arguments are passed the default IP, port and name are 127.0.0.1, 4444 and Server respectively 
 
 
 The Client can also be invoked in 2 ways- 
 (i) By running 
-java -jar JoinWhiteBoard.jar <IP> <port> <username> 
+```java -jar JoinWhiteBoard.jar <IP> <port> <username> ```
 
 (ii) By running 
-java -jar JoinWhiteBoard.jar 
+```java -jar JoinWhiteBoard.jar ```
 i.e if no arguments are passed  the default IP, port and name are 127.0.0.1, 4444 and “no name” respectively.
