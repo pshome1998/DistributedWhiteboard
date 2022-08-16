@@ -5,11 +5,11 @@ A collaborative whiteboard that allows multiple participants to draw simultaneou
 This implementation of collaborative whiteboard provides features such as : freehand drawing, inputing text, drawing shapes such as lines, circles, triangles, rectangles. It also provides a file menu with New, Open, Save and SaveAs options, to be controlled only by the manager (in this implementation it is the Server). The application also provides a chat box function to enable communication between users. Sockets and threads are the lowest level of abstraction used in this project for network communication and concurrency. 
 
 ## How to Run 
-The first user creates a whiteboard and becomes the whiteboard’s manager/server. 
-The Server/manager can be invoked in 2 ways- 
+The first user creates a whiteboard and becomes the whiteboard’s manager/server by running 
 
 1. ```java -jar StartWhiteBoard.jar <IP> <port> <username> ```
 
+###       OR
 
 2. ```java -jar StartWhiteBoard.jar```
 
@@ -20,7 +20,7 @@ Other users can ask to join the whiteboard application any time by running
 
 1. ```java -jar JoinWhiteBoard.jar <IP> <port> <username> ```
 
-## OR
+###       OR
 
 2. ```java -jar JoinWhiteBoard.jar ```
 
