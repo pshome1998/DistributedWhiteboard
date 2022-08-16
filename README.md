@@ -9,7 +9,7 @@ The first user creates a whiteboard and becomes the whiteboard’s manager/serve
 
 1. ```java -jar StartWhiteBoard.jar <IP> <port> <username> ```
 
-    ### OR
+### or
 
 2. ```java -jar StartWhiteBoard.jar```
 
@@ -20,8 +20,12 @@ Other users can ask to join the whiteboard application any time by running
 
 1. ```java -jar JoinWhiteBoard.jar <IP> <port> <username> ```
 
-    ### OR
+### or
 
 2. ```java -jar JoinWhiteBoard.jar ```
 
 i.e if no arguments are passed  the default IP, port and name are 127.0.0.1, 4444 and “no name” respectively.
+
+
+## Grade 
+23.5/25
